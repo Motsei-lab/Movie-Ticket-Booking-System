@@ -1,7 +1,7 @@
-package com.mecerintered.movie.Respository;
+package com.mecerintered.movie.Repository;
 
-import com.mecerintered.movie.Entities.Movies;
+import com.mecerintered.movie.Entities.Tickets;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface TicketRespository extends JpaRepository<Movies,Long> {
+public interface TicketRepository extends JpaRepository<Tickets,Long> {
 }

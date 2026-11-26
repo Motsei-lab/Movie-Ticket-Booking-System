@@ -1,4 +1,7 @@
-package com.mecerintered.movie.Respository;
+package com.mecerintered.movie.Repository;
 
-public interface ShowTimeRepository {
+import com.mecerintered.movie.Entities.ShowTime;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ShowTimeRepository extends JpaRepository<ShowTime, Long> {
 }

@@ -1,4 +1,4 @@
 package com.mecerintered.movie.DTOs;
 
-public class TicketResponse {
+public record TicketResponse() {
 }
