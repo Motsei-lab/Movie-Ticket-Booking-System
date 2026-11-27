@@ -28,7 +28,7 @@ public class Movies {
     @Column(name = "durationMinutes", nullable = false)
     private int durationMinutes;
 
-    @OneToMany(mappedBy = "movies",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "movie",cascade = CascadeType.ALL)
     private List<ShowTime> showTimes;
 
 }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Movie Booking System</h1>
+    </header>
+    <section class="add-movie-section">
+        <h2>Add New Movie</h2>
+        <form id="movieForm">
+            <input type="text" id="title" placeholder="Movie Title" required>
+            <input type="text" id="genre" placeholder="Genre (e.g Action)" required>
+            <input type="number" id="duration" placeholder="Duration(Mins)" required>
+            <button type="submit">Add Movie</button>
+        </form>
+        <p id="errorMessage" class="error hidden"></p>
+
+    </section>
+
+    <section class="movie-list-section">
+        <h2>Now Showing</h2>
+        <div id="movieList" class="movie-grid"></div>
+    </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
